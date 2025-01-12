@@ -49,6 +49,7 @@
     - [x] http 包
 - [ ] 选择 Web 框架
     - [x] gin
+    - [ ] gin-contrib: 提供各种常用的中间件，比如用于处理 CORS、JWT 认证等。
     - [x] [air](https://github.com/air-verse/air) 可以在检测到源码改动后，重新构建运行程序。
         - `air init`
         - `air`
@@ -115,3 +116,17 @@
     - [ ] Go Runtime 的源码 (调度器、垃圾回收等)
 - [ ] 关注 Go 社区的最新动态，参与开源项目
 - [ ] 不断学习新技术和新工具
+
+### 其他
+- [ ] Viper: 一个强大的配置管理库，支持多种配置文件格式（如 JSON、YAML、TOML 等）。
+    - 官网: https://github.com/spf13/viper
+- [ ] Zap: 一个高性能的日志库，适合生产环境使用。
+    - 官网: https://github.com/uber-go/zap
+- [ ] JWT: 使用 dgrijalva/jwt-go 库来处理 JWT（JSON Web Token）。
+    - 官网: https://github.com/dgrijalva/jwt-go
+- [ ] Swagger: 使用 swaggo/swag 生成 API 文档。
+    - 官网: https://github.com/swaggo/swag
+- [ ] Testify: 一个强大的测试库，提供了断言、mock 等功能。
+    - 官网: https://github.com/stretchr/testify
+- [ ] RabbitMQ: 使用 streadway/amqp 库来操作 RabbitMQ。
+    - 官网: https://github.com/streadway/amqp
