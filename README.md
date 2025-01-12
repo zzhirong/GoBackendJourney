@@ -10,6 +10,7 @@
     - [x] 安装 Go SDK
     - [x] 配置 Neovim + gopls
     - [x] dlv 调试
+      - `dlv run main.go`
 - [x] 掌握 Go 语言基础语法
     - [x] 变量
     - [x] 数据类型
@@ -43,50 +44,49 @@
 
 ## 阶段二：网络编程与 Web 框架
 - [ ] 掌握网络编程基础
-  - [ ] TCP/IP 协议
-  - [ ] HTTP 协议
+    - [x] TCP/IP 协议
+    - [x] HTTP 协议
 - [ ] 学习 Go 网络编程
-  - [ ] net 包
-  - [ ] http 包
+    - [ ] net 包
+    - [x] http 包
 - [ ] 选择 Web 框架
-  - [ ] gin
-  - [ ] echo
-  - [ ] mux
-- [ ] 理解路由、中间件、请求处理、响应处理
-- [ ] 学习 JSON 处理 (encoding/json)
-- [ ] 学习 HTML 模板引擎 (html/template)
-- [ ] 理解 RESTful API 设计原则
-- [ ] 库使用
-  - [ ] `net/http` (Go 标准库)
-  - [ ] 选择一个 Web 框架
+    - [x] gin
+    - [x] [air](https://github.com/air-verse/air) 可以在检测到源码改动后，重新构建运行程序。
+        - `air init`
+        - `air`
+    - [ ] echo
+    - [ ] mux
+- [x] 理解路由、中间件、请求处理、响应处理
+- [x] 学习 JSON 处理 (encoding/json)
+- [x] 学习 HTML 模板引擎 (html/template)
+- [x] 理解 RESTful API 设计原则
 - [ ] 源码阅读
-  - [ ] `net/http` 包：理解 HTTP 服务器如何工作
-  - [ ] 选择的网络框架的源码
-- [ ] 编写简单的 HTTP 服务，熟悉 Web 开发流程
+    - [ ] `net/http` 包：理解 HTTP 服务器如何工作
+    - [ ] 选择的网络框架的源码
+- [x] 编写简单的 HTTP 服务，熟悉 Web 开发流程
 - [ ] 学习 API 文档编写 (例如 Swagger)
 
 ## 阶段三：数据库与 ORM
-- [ ] 掌握 SQL 基础
-  - [ ] CRUD
-  - [ ] JOIN
-  - [ ] 索引
+- [x] 掌握 SQL 基础
+    - [x] CRUD
+    - [x] JOIN
+    - [x] 索引
 - [ ] 学习关系型数据库或 NoSQL 数据库
-  - [ ] MySQL
-  - [ ] PostgreSQL
-  - [ ] MongoDB
+    - [x] MySQL
+    - [x] Redis
+    - [ ] PostgreSQL
+    - [ ] MongoDB
 - [ ] 理解数据库连接池
 - [ ] 学习 ORM 框架
-  - [ ] gorm
-  - [ ] xorm
-- [ ] 数据模型定义
+    - [ ] gorm
+    - [ ] xorm
 - [ ] 学习数据库迁移
 - [ ] 库使用
-  - [ ] `database/sql` (Go 标准库)
-  - [ ] 选择一个 ORM 框架
-  - [ ] 数据库驱动程序（例如：`github.com/go-sql-driver/mysql` 或 `github.com/lib/pq`）
+    - [ ] `database/sql` (Go 标准库)
+    - [ ] `go-redis/redis/v8` (Redis 客户端)
 - [ ] 源码阅读
-  - [ ] ORM 框架的源码
-  - [ ] `database/sql` 包
+    - [ ] ORM 框架的源码
+    - [ ] `database/sql` 包
 - [ ] 选择一个数据库，并尝试连接和操作
 
 ## 阶段四：测试、部署和微服务
@@ -97,14 +97,11 @@
 - [ ] 学习微服务架构概念
 - [ ] 理解 API 网关、服务发现和负载均衡
 - [ ] 学习消息队列
-  - [ ] RabbitMQ
-  - [ ] Kafka
+    - [ ] RabbitMQ
+    - [ ] Kafka
 - [ ] 库使用
-  - [ ] `testify/assert`
-  - [ ] 选择一个 API 网关/服务发现框架
-- [ ] 源码阅读
-  - [ ] 选择的微服务框架源码
-  - [ ] docker/docker 的源码
+    - [ ] `testify/assert`
+    - [ ] 选择一个 API 网关/服务发现框架
 - [ ] 编写简单的微服务，学习微服务设计的实践
 - [ ] 尝试使用 Docker 部署你的应用
 
@@ -114,11 +111,9 @@
 - [ ] 学习设计模式
 - [ ] 理解缓存、限流、熔断等技术
 - [ ] 库使用
-  - [ ] `uber-go/fx` (依赖注入)
-  - [ ] `go-redis/redis/v8` (Redis 客户端)
-  - [ ] `prometheus/client_golang` (监控)
+    - [ ] `uber-go/fx` (依赖注入)
+    - [ ] `prometheus/client_golang` (监控)
 - [ ] 源码阅读
-  - [ ] Go Runtime 的源码 (调度器、垃圾回收等)
+    - [ ] Go Runtime 的源码 (调度器、垃圾回收等)
 - [ ] 关注 Go 社区的最新动态，参与开源项目
 - [ ] 不断学习新技术和新工具
-
