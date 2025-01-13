@@ -78,6 +78,12 @@
 - [ ] 理解数据库连接池
 - [ ] 学习 ORM 框架
     - [ ] gorm
+    ```go
+    // 可以打开 gorm 底层执行的 SQL 语句，便于理解 GORM 行为。
+    db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{
+        Logger: logger.Default.LogMode(logger.Info), 
+    })
+    ```
     - [ ] xorm
 - [ ] 学习数据库迁移
 - [ ] 库使用
