@@ -100,9 +100,12 @@
 - [ ] 学习 Docker 和 Docker Compose
 - [ ] 理解 CI/CD (GitHub Actions, Jenkins)
 - [ ] 学习微服务架构概念
+- [ ] go-zero
+- [ ] micro/micro:
 - [ ] 理解 API 网关、服务发现和负载均衡
 - [ ] 学习消息队列
     - [ ] RabbitMQ
+        - [x] https://www.rabbitmq.com/tutorials
     - [ ] Kafka
 - [ ] 库使用
     - [ ] `testify/assert`
@@ -136,3 +139,7 @@
     - 官网: https://github.com/stretchr/testify
 - [ ] RabbitMQ: 使用 streadway/amqp 库来操作 RabbitMQ。
     - 官网: https://github.com/streadway/amqp
+- [ ] etcd-io/etcd:
+    - 描述:  一个分布式键值存储，通常用作服务发现和配置管理。
+    - 经验值: 了解分布式系统原理、熟悉一致性算法、理解键值存储的原理。
+- [ ] prometheus/prometheus:
