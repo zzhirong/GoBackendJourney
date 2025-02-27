@@ -95,14 +95,17 @@
 - [ ] 选择一个数据库，并尝试连接和操作
 
 ## 阶段四：测试、部署和微服务
+- 书籍:
+  - [x] 凤凰架构
+  - [x] Cloud Native Go
 - [ ] 掌握单元测试和集成测试
 - [ ] 理解依赖注入 (DI)
-- [ ] 学习 Docker 和 Docker Compose
-- [ ] 理解 CI/CD (GitHub Actions, Jenkins)
-- [ ] 学习微服务架构概念
+- [x] 学习 Docker 和 Docker Compose
+- [x] 理解 CI/CD (GitHub Actions, Jenkins)
+- [x] 学习微服务架构概念
 - [ ] go-zero
 - [ ] micro/micro:
-- [ ] 理解 API 网关、服务发现和负载均衡
+- [x] 理解 API 网关、服务发现和负载均衡
 - [ ] 学习消息队列
     - [ ] RabbitMQ
         - [x] https://www.rabbitmq.com/tutorials
@@ -118,6 +121,7 @@
 - [ ] 学习性能优化技巧
 - [ ] 学习设计模式
 - [ ] 理解缓存、限流、熔断等技术
+  - [ ] https://github.com/afex/hystrix-go
 - [ ] 库使用
     - [ ] `uber-go/fx` (依赖注入)
     - [ ] `prometheus/client_golang` (监控)
@@ -143,3 +147,8 @@
     - 描述:  一个分布式键值存储，通常用作服务发现和配置管理。
     - 经验值: 了解分布式系统原理、熟悉一致性算法、理解键值存储的原理。
 - [ ] prometheus/prometheus:
+    - https://yunlzheng.gitbook.io/prometheus-book
+- [ ] https://github.com/eko/gocache
+- [ ] sync/singleflight
+    - 应对缓存击穿
+- [ ] golang.org/x/time/rate
